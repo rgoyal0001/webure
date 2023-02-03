@@ -14,7 +14,7 @@ export const Intro =()=>{
                 <p>Reach Your Business Goals in Record Time</p>
                 <p className="content">Support small business and join the nationwide movement to encourage commercial support for the millions of minority owned businesses helping world economy.</p>
                 <div className="bottom">
-                    <button className="yes">Get Started</button>
+                    <div className="button"><button >Get Started</button></div>
                     <div className="meeting">
                         <img src={videoCircle} alt="" />
                         <p>Book a 30 Min Quick Meeting</p>

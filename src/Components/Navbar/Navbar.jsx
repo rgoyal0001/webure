@@ -5,9 +5,9 @@ export const Navbar =()=>{
     const style={
         'fontFamily': 'Ubuntu',
         'fontStyle': 'normal',
-        // 'fontWeight': '400',
-        // 'fontSize': '16px',
-        // 'lineHeight': '18px',
+        'fontWeight': '400',
+        'fontSize': '16px',
+        'lineHeight': '18px',
         'color': '#747582',
         'textDecoration':'none',
     }

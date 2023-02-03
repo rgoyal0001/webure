@@ -1,0 +1,94 @@
+.work{
+    font-family: 'Poppins';
+    width: 90%;
+    margin: auto;
+}
+.work h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 105px;
+/* identical to box height */
+    color: #000000;
+    text-align: center;
+}
+.workHead{
+    display: flex;
+    gap: 5%;
+    width: 90%;
+    margin: auto;
+}
+.workHead p:nth-child(1){
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+
+color: #000000;
+}
+.workHead p:nth-child(2){
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 34px;
+
+/* Grey */
+
+color: #A9A9A9;
+}
+
+.top{
+    display: grid;
+    gap: 2%;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    grid-template-columns: repeat(4,1fr);
+}
+.top > div{
+    border-radius: 8.43641px;
+    align-items: center;
+    text-align: center;
+    padding: 8%;
+}
+.top div p{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+    color: #040404;
+}
+
+.workBottom{
+    display: grid;
+    gap: 2%;
+    background:#ffffff;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    grid-template-columns: repeat(3,1fr);
+}
+.workBottom div{
+padding: 3%;
+    text-align: center;
+    background: #FFFFFF;
+box-shadow: 40px 0px 70px rgba(123, 67, 67, 0.07), -40px 100px 70px rgba(122, 79, 79, 0.07);
+}
+.workBottom div img{
+    width: 100%;
+    /* margin: 3%; */
+}
+
+.workBottom div p{
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height, or 125% */
+
+
+color: #14183E;
+}

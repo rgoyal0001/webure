@@ -1,0 +1,84 @@
+.mask{
+    font-family: 'Ubuntu';
+    display: flex;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    background: #282C4B;
+    align-items: center;
+    gap: 20px;
+    /* height: 552px; */
+    padding: 20px;
+}
+.mask .left{
+    width: 50%;
+    height: 552px;
+    /* border: 1px solid white; */
+}
+.mask .left img{
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+}
+.mask .right{
+}
+.mask .right > p:nth-of-type(1){
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+color: #F17216;
+
+}
+.mask .right > p:nth-of-type(2){
+    font-style: normal;
+    /* font-family: 'Ubuntu'; */
+font-weight: 700;
+font-size: 36px;
+line-height: 60px;
+/* or 167% */
+
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+.mask .right img{
+    background: #CED1E6;
+    margin-bottom: -.7%;
+    margin-right: 1%;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.mask .right > p:nth-child(n+3){
+    font-style: normal;
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #CED1E6;
+}
+.mask .right input{
+    
+/* border: 1px solid #FFFFFF; */
+/* transform: rotate(179.52deg); */
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.02em;
+border: none;
+color: #FFFFFF;
+background-color: #282C4B;
+}
+.mask .right button{
+    background: linear-gradient(97.32deg, #FF698D -3.47%, #FB3F6C 108.43%);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 30px 50px rgba(168, 22, 75, 0.15);
+    border-radius: 192px;
+
+}

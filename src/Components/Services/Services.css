@@ -1,0 +1,71 @@
+.service{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    align-items:center ;
+    gap:20px;
+}
+.services > p:nth-of-type(1){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #F17216;
+}
+.services> p:nth-of-type(2){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+
+
+    color: #747582;
+
+}
+.des{
+    
+/* background: #5B1727; */
+opacity: 0.2;
+/* transform: rotate(-34.32deg); */
+}
+.services h3{
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 53px;
+/* identical to box height, or 147% */
+
+letter-spacing: 0.02em;
+
+color: #282C4B;
+
+}
+
+.serviceList{
+    display: flex;
+
+}
+.serviceList div h4{
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height, or 125% */
+
+
+color: #14183E;
+}
+.serviceList div img{
+
+}
+.serviceList div p{
+    font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+/* or 180% */
+
+
+color: #747582;
+}
